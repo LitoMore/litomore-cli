@@ -1,0 +1,19 @@
+{
+  "name": "litomore",
+  "version": "0.0.0",
+  "description": "LitoMore's Profile",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": "git@github.com:LitoMore/litomore.git",
+  "author": "LitoMore <litomore@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk-pipe": "^1.2.0",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.21.1"
+  }
+}
