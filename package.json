@@ -10,7 +10,7 @@
   "author": "LitoMore <litomore@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk-pipe": "^1.2.0",
+    "chalk-pipe": "^2.0.0",
     "meow": "^5.0.0"
   },
   "devDependencies": {
