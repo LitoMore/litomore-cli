@@ -11,7 +11,7 @@
   "files": [
     "dist/cli.js"
   ],
-  "repository": "git@github.com:LitoMore/litomore.git",
+  "repository": "git@github.com:LitoMore/litomore-cli.git",
   "author": "LitoMore <litomore@gmail.com>",
   "license": "MIT",
   "dependencies": {

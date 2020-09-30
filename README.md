@@ -1,7 +1,21 @@
-# Hi There 👋
+# litomore
 
-I am an open-sourcerer on GitHub. I used to be keen on open-source projects related to CLI, but now I am trying more possible directions. If we met here, then it is our fate. I look forward to discussing technology with everyone in the open-source community.
+The [LitoMore](https://github.com/LitoMore) CLI
 
-```bash
+<div align="center"><img src="https://raw.githubusercontent.com/LitoMore/litomore-cli/master/media/screenshot.png" alt="LitoMore" /></div>
+
+## Usage
+
+Install Node.js, then:
+
+```shell
 $ npx litomore
 ```
+
+## Built with
+
+- [Ink](http://github.com/vadimdemedes/ink) - React for interactive command-line apps
+
+## License
+
+MIT
