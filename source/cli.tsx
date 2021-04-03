@@ -42,12 +42,21 @@ const Home: FunctionComponent = () => {
 				<Text bold color="red">Work Experience</Text>
 
 				<Box justifyContent="space-between">
+					<Text bold>App Annie</Text>
+					<Text color="red">Beijing</Text>
+				</Box>
+				<Box justifyContent="space-between">
+					<Text>Senior Front-End Engineer</Text>
+					<Text>Mar, 2021 - Present</Text>
+				</Box>
+
+				<Box justifyContent="space-between" marginTop={1}>
 					<Text bold>Beijing Ark Reading Technology Co., Ltd.</Text>
 					<Text color="red">Beijing</Text>
 				</Box>
 				<Box justifyContent="space-between">
 					<Text>Full-Stack Engineer</Text>
-					<Text>May, 2020 - Now</Text>
+					<Text>May, 2020 - Mar, 2021</Text>
 				</Box>
 
 				<Box justifyContent="space-between" marginTop={1}>
