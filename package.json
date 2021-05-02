@@ -2,14 +2,15 @@
   "name": "litomore",
   "version": "0.0.3",
   "description": "LitoMore's Profile",
-  "bin": "dist/cli.js",
+  "type": "module",
+  "bin": "./dist/cli.js",
   "scripts": {
+    "build": "del-cli dist && tsc",
     "test": "xo && npm run build",
-    "build": "tsc",
     "start": "ts-node source/cli.tsx"
   },
   "files": [
-    "dist/cli.js"
+    "dist"
   ],
   "repository": "git@github.com:LitoMore/litomore-cli.git",
   "author": "LitoMore <litomore@gmail.com>",
@@ -19,11 +20,16 @@
     "react": "^16.13.1"
   },
   "devDependencies": {
+    "@sindresorhus/tsconfig": "^1.0.2",
     "@types/react": "^16.9.49",
+    "del-cli": "^3.0.1",
     "eslint-config-xo-react": "^0.23.0",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
     "ts-node": "^9.0.0",
     "xo": "^0.37.1"
+  },
+  "xo": {
+    "extends": "xo-react"
   }
 }
