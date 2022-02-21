@@ -42,7 +42,7 @@ const Home: FunctionComponent = () => {
 				<Text bold color="red">Work Experience</Text>
 
 				<Box justifyContent="space-between">
-					<Text bold>App Annie</Text>
+					<Text bold>data.ai</Text>
 					<Text color="red">Beijing</Text>
 				</Box>
 				<Box justifyContent="space-between">
