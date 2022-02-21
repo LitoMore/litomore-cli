@@ -98,7 +98,7 @@ const Home: FunctionComponent = () => {
 				<Text bold color="red">Projects</Text>
 
 				<Box justifyContent="space-between">
-					<Text bold>LitoMore CLI</Text>
+					<Text bold>LitoMore/litomore-cli</Text>
 					<Text color="cyan">TypeScript, React, CLI</Text>
 				</Box>
 				<Box justifyContent="space-between">
@@ -107,7 +107,7 @@ const Home: FunctionComponent = () => {
 				</Box>
 
 				<Box justifyContent="space-between" marginTop={1}>
-					<Text bold>Inquirer.js</Text>
+					<Text bold>SBoudrias/Inquirer.js</Text>
 					<Text color="cyan">JavaScript, CLI</Text>
 				</Box>
 				<Box justifyContent="space-between">
@@ -116,21 +116,21 @@ const Home: FunctionComponent = () => {
 				</Box>
 
 				<Box justifyContent="space-between" marginTop={1}>
-					<Text bold>Xiaofan WeChat</Text>
+					<Text bold>simple-icons/simple-icons</Text>
 					<Text color="cyan">JavaScript</Text>
 				</Box>
 				<Box justifyContent="space-between">
-					<Text>WeChat Mini-App for Fanfou</Text>
-					<Text>Owner</Text>
+					<Text>SVG icon for popular brands</Text>
+					<Text>Member</Text>
 				</Box>
 
 				<Box justifyContent="space-between" marginTop={1}>
-					<Text bold>Fanfou SDK Python</Text>
-					<Text color="cyan">Python</Text>
+					<Text bold>netless-io/flat</Text>
+					<Text color="cyan">TypeScript, Electron</Text>
 				</Box>
 				<Box justifyContent="space-between">
-					<Text>SDK for Fanfou</Text>
-					<Text>Owner</Text>
+					<Text>Open-source classroom app built with Electron</Text>
+					<Text>Member</Text>
 				</Box>
 			</Box>
 		</Box>
