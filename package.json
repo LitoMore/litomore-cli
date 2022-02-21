@@ -3,14 +3,14 @@
   "version": "0.0.3",
   "description": "LitoMore's Profile",
   "type": "module",
-  "bin": "./dist/cli.js",
+  "bin": "./distribution/cli.js",
   "scripts": {
-    "build": "del-cli dist && tsc",
+    "build": "del-cli distribution && tsc && chmod +x distribution/cli.js",
     "test": "xo && npm run build",
-    "start": "ts-node source/cli.tsx"
+    "start": "npm run build && ./distribution/cli.js"
   },
   "files": [
-    "dist"
+    "distribution"
   ],
   "repository": "git@github.com:LitoMore/litomore-cli.git",
   "author": "LitoMore <litomore@gmail.com>",
@@ -26,7 +26,6 @@
     "eslint-config-xo-react": "^0.23.0",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
-    "ts-node": "^9.0.0",
     "xo": "^0.37.1"
   },
   "xo": {
