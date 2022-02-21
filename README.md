@@ -11,7 +11,7 @@ The [LitoMore](https://github.com/LitoMore) CLI
 Install Node.js, then:
 
 ```shell
-$ npx litomore
+npx litomore
 ```
 
 ## Built with
