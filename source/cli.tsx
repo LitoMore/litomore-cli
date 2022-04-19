@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import React, {FunctionComponent} from 'react';
+import React from 'react';
 import {render, Box, Text} from 'ink';
 
-const Home: FunctionComponent = () => {
-	return (
+export function Home() {
+	return	(
 		<Box flexDirection="column" borderStyle="classic">
 			<Box justifyContent="center">
 				<Text>
@@ -135,6 +135,6 @@ const Home: FunctionComponent = () => {
 			</Box>
 		</Box>
 	);
-};
+}
 
 render(<Home/>);
