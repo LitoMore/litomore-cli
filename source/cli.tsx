@@ -13,8 +13,6 @@ export function Home() {
 				</Text>
 			</Box>
 
-			<Education />
-
 			<WorkExperience
 				experiences={[
 					{
@@ -83,6 +81,8 @@ export function Home() {
 					},
 				]}
 			/>
+
+			<Education />
 		</Box>
 	);
 }
