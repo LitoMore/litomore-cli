@@ -1,6 +1,6 @@
 {
   "name": "litomore",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "LitoMore's Profile",
   "type": "module",
   "bin": "./distribution/cli.js",
