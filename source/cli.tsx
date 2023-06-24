@@ -22,6 +22,7 @@ export function Home() {
 						location: 'Beijing',
 						title: 'Senior Front-End Engineer',
 						from: 'Mar, 2021',
+						to: 'Jun, 2023',
 					},
 					{
 						company: 'Beijing Ark Reading Technology Co., Ltd.',
