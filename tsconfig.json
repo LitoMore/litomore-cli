@@ -1,6 +1,7 @@
 {
   "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
+    "declaration": false,
     "jsx": "react",
     "esModuleInterop": true,
     "outDir": "distribution"
