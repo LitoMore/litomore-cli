@@ -16,6 +16,13 @@ export function Home() {
 			<WorkExperience
 				experiences={[
 					{
+						company: 'NextBillion.ai',
+						location: 'Singapore',
+						title: 'Full-Stack Engineer',
+						from: 'Jun, 2023',
+						to: 'Present',
+					},
+					{
 						company: 'data.ai',
 						location: 'Beijing',
 						title: 'Senior Front-End Engineer',
