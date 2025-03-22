@@ -16,11 +16,18 @@ export function Home() {
 			<WorkExperience
 				experiences={[
 					{
+						company: 'InsightFinder',
+						location: 'Durham, NC, United States',
+						title: 'UI Engineer',
+						from: 'Mar, 2025',
+						to: 'Present',
+					},
+					{
 						company: 'NextBillion.ai',
 						location: 'Singapore',
 						title: 'Full-Stack Engineer',
 						from: 'Jun, 2023',
-						to: 'Present',
+						to: 'Mar, 2024',
 					},
 					{
 						company: 'data.ai',
@@ -63,7 +70,7 @@ export function Home() {
 			<Projects
 				projects={[
 					{
-						name: 'LitoMore/litomore-cli',
+						name: 'raycast/litomore-cli',
 						description: 'Project for this resume',
 						tags: ['TypeScript', 'React', 'CLI'],
 						role: 'Owner',
@@ -85,6 +92,12 @@ export function Home() {
 						description: 'Open-source classroom app built with Electron',
 						tags: ['TypeScript', 'Electron'],
 						role: 'Member',
+					},
+					{
+						name: 'raycast/extensions',
+						description: 'Everything you need to extend Raycast',
+						tags: ['TypeScript', 'React'],
+						role: 'Official-Invited Reviewer',
 					},
 				]}
 			/>
