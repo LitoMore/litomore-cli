@@ -16,11 +16,18 @@ export function Home() {
 			<WorkExperience
 				experiences={[
 					{
+						company: 'marswave.ai',
+						location: 'Beijing',
+						title: 'AI Agent Builder',
+						from: 'Oct, 2025',
+						to: 'Present',
+					},
+					{
 						company: 'InsightFinder',
 						location: 'Durham, NC, United States',
 						title: 'UI Engineer',
 						from: 'Mar, 2025',
-						to: 'Present',
+						to: 'May, 2025',
 					},
 					{
 						company: 'NextBillion.ai',
